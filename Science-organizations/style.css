@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Raleway:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(87, 85, 82);
+}
+
+.container {
+  max-width: 95%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(129, 121, 121);
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 1px rgb(231, 53, 53);
+  max-width: 95%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: underline;
+  color: white;
+}
+li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 900;
+}
+.collaboration {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 95%;
+}
+.collaboration p {
+  font-size: 20px;
+  color: white;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: solid;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  flex-basis: 20%;
+  height: 100%;
+}
+
+.title span {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+}
